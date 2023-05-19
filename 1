@@ -37,7 +37,7 @@ class Sword<T extends Metal> {
         return material.getEndurance() > 49;
     }
 
-    class Test {
+  static class Test {
         public static void main(String[] args) {
             Sword<Steel> steelSword = new Sword<>(new Steel());
             System.out.println(steelSword.checkEndurance());
